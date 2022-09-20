@@ -865,7 +865,7 @@ int main(int argc, char *argv[]){
 			
 			// write results to file
 			//WriteGeoTIFFRaster(&DenSurf, denOMPfn);
-			WriteSamplePoints(&sPoints, hs, gedgeWeights, "pntsSEQ.csv");
+			WriteSamplePoints(&sPoints, hs, gedgeWeights, "pntsCPU.csv");
 
 			auto t2_cpu = high_resolution_clock::now();
 			ms_float = t2_cpu - t1_cpu;
