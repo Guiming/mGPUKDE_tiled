@@ -6,7 +6,7 @@ Multi-GPU-parallel and tile-based kernel density estimation for large-scale spat
 ## IDE
 Visual Studio 2022.
 ## How to configure the project before building in Visual Studio 2022 (Community Version)?
-1. Open the solution by opening the .sln file
+### Step 1. Open the solution by opening the .sln file
 2. Edit project properties as below:
 Project --> Properties --> Configuration Properties 
 ...VC++ Directories; edit "Include Directories" and "Library Directories" to point to the GDAL include and lib folders, respectively.
