@@ -10,7 +10,7 @@ Visual Studio 2022.
 ### Step 2. Edit project properties as below:
 Project --> Properties --> Configuration Properties 
 ...VC++ Directories; edit "Include Directories" and "Library Directories" to point to the GDAL include and lib folders, respectively.
-...CUDA C/C++; configure "CUDA Toolkit Custom Dir"
+\n...CUDA C/C++; configure "CUDA Toolkit Custom Dir"
 ## How to run the program?
 A complied mGPUKDE_tiled.exe file is provided in the x64\Debug folder. Below are two example commands to run the program:
 ### 1. Run in mode 0 (data are generated on the fly):
