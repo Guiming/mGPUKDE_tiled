@@ -289,8 +289,8 @@ int main(int argc, char *argv[]){
 		// parse commandline arguments
 		if (argc != 15) {
 			printf("Incorrect arguments provided. Exiting...\n");
-			printf("Run in mode 0:\n ./kde_cuda 0 #points cellsize_edge_correction cellsize_density h_option enable_edge_corection enable_sample_weight skip_omp_parallel skip_gpu_parallel num_cpu_threads num_gpu denfn_omp denfn_cuda\n");
-			printf("Run in mode 1:\n ./kde_cuda 1 points_file mask_file_edge_correction mask_file_density h_option enable_edge_corection enable_sample_weight skip_omp_parallel skip_gpu_parallel num_cpu_threads num_gpu denfn_omp denfn_cuda\n");
+			printf("Run in mode 0:\n mGPUKDE_tiled.exe 0 #points cellsize_edge_correction cellsize_density h_option enable_edge_corection enable_sample_weight skip_omp_parallel skip_gpu_parallel num_cpu_threads num_gpu denfn_omp denfn_cuda serialized_mode\n");
+			printf("Run in mode 1:\n mGPUKDE_tiled.exe 1 points_file mask_file_edge_correction mask_file_density h_option enable_edge_corection enable_sample_weight skip_omp_parallel skip_gpu_parallel num_cpu_threads num_gpu denfn_omp denfn_cuda serialized_mode\n");
 			
 			return 1;
 		}
@@ -349,8 +349,8 @@ int main(int argc, char *argv[]){
 			}
 			else {
 				printf("***Incorrect arguments provided. Exiting...\n");
-				printf("***Run in mode 0:\n ./kde_cuda 0 #points cellsize_edge_correction cellsize_density h_option enable_edge_corection enable_sample_weight skip_omp_parallel skip_gpu_parallel num_cpu_threads num_gpu denfn_seq, denfn_cuda\n");
-				printf("***Run in mode 1:\n ./kde_cuda 1 points_file mask_file_edge_correction mask_file_density h_option enable_edge_corection enable_sample_weight skip_omp_parallel skip_gpu_parallel num_cpu_threads num_gpu denfn_seq, denfn_cuda\n");
+				printf("***Run in mode 0:\n mGPUKDE_tiled.exe 0 #points cellsize_edge_correction cellsize_density h_option enable_edge_corection enable_sample_weight skip_omp_parallel skip_gpu_parallel num_cpu_threads num_gpu denfn_seq, denfn_cuda serialized_mode\n");
+				printf("***Run in mode 1:\n mGPUKDE_tiled.exe 1 points_file mask_file_edge_correction mask_file_density h_option enable_edge_corection enable_sample_weight skip_omp_parallel skip_gpu_parallel num_cpu_threads num_gpu denfn_seq, denfn_cuda serialized_mode\n");
 				return 1;
 			}
 
