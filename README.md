@@ -1,5 +1,7 @@
 # mGPUKDE_tiled
 Multi-GPU-parallel and tile-based kernel density estimation for large-scale spatial point pattern analysis
+## Citation
+Zhang, G., & Xu, J. (2023). Multi-GPU-Parallel and tile-based kernel density estimation for large-scale spatial point pattern analysis. ISPRS International Journal of Geo-Information, 12(2), 31. https://doi.org/https://doi.org/10.3390/ijgi12020031
 ## Dependencies
 1. CUDA 11.7: https://developer.nvidia.com/cuda-11-7-0-download-archive.
 2. GDAL: https://gdal.org/index.html.
